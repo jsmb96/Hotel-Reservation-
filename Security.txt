@@ -1,0 +1,10 @@
+// Restricting page access to Admin only
+
+if($_SESSION["type"] != "Admin")
+        {header('Location: UserHomepage.php');}
+
+// Restricting page access to System users only
+
+if($_SESSION["type"] != "Admin" && $_SESSION["type"] != "Student" && $_SESSION["type"] != "Faculty" && $_SESSION["type"] != "Research")
+        {header('Location: UserHomepage.php');}
+

@@ -1,0 +1,196 @@
+
+ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2D2F70;
+  /*position: -webkit-sticky;  Safari 
+  position: sticky;*/
+  top: 0;
+}
+
+li {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 64px;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: #7E80D9;
+}
+
+.heading {
+  color: white; 
+	font-size: xx-large;
+	margin-top: 57px;
+	/*margin-bottom: 10px;*/
+	margin-left: 5px;
+	font-weight: bold;
+
+}
+
+body {
+background-color:  white;
+background-repeat:  no-repeat;
+background-position: left top;
+margin-top:0px;
+margin-left: 0px;
+margin-right: 0px;
+text-align: center;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+  /*margin: auto;*/
+}
+
+h1  { color: black;}
+
+p     { color: black; }
+
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  background-color: lightgrey;
+}
+
+table, th, td {
+	/*border: 1px solid black;*/
+	text-align: left;
+  	padding: 8px;
+	margin-left: auto;
+    margin-right: auto;
+	border-bottom: 1px solid #ddd;}
+
+td button {width: 100%;}
+
+button {
+  -webkit-appearance: button-bevel;
+    -moz-appearance: button-bevel;
+    appearance: button-bevel;
+  background-color: #2D2F70;
+  border: none;
+  color: white;
+  font-weight: bold; 
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+  margin: 0;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;}
+
+button:hover {
+  background-color: #7E80D9;
+  color: black;
+}
+
+
+input[type=text], [type=email], [type=password], [type=date], [type=number], select, textarea 
+{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+label {
+  padding: 0;
+  display: inline-block;
+}
+
+input[type=submit], [type=reset] 
+{
+  -webkit-appearance: button-bevel;
+    -moz-appearance: button-bevel;
+    appearance: button-bevel;
+  background-color: #2D2F70;
+  border: none;
+  color: white;
+  font-weight: bold; 
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7E80D9;
+  color: black;
+}
+
+input[type=reset]:hover {
+  background-color: #7E80D9;
+  color: black;
+}
+
+a {
+  -webkit-appearance: button-bevel;
+    -moz-appearance: button-bevel;
+    appearance: button-bevel;
+  background-color: #2D2F70;
+  border: none;
+  color: white;
+  font-weight: bold; 
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #7E80D9;
+  color: black;
+}
+
+tr:nth-child(even){background-color: #F5F5F5}
+tr:nth-child(odd){background-color: white}
+tr:hover {background-color: #CACBFC}
+
+th {
+  background-color: #2D2F70;
+  color: white;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+/*a, a:visited { 
+        color: white;
+				font-weight: bold; 
+				text-decoration: none;
+        -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;}
+a:hover { color: red; }*/
+
